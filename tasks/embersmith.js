@@ -1,4 +1,4 @@
-var wintersmith = require("wintersmith");
+var embersmith = require("embersmith");
 
 module.exports = function(grunt) {
 
@@ -14,7 +14,7 @@ module.exports = function(grunt) {
     }
   };
 
-  grunt.registerMultiTask("wintersmith", "Use the wintersmith static site generator", function () {
+  grunt.registerMultiTask("embersmith", "Use the embersmith static site generator", function () {
 
     var options = this.options();
     grunt.verbose.writeflags(options, 'Options');
@@ -29,8 +29,8 @@ module.exports = function(grunt) {
     // This is an async task, so we need to get the done function
     done = this.async();
 
-    // Create the Wintersmith environment using config file
-    var env = wintersmith(options.config);
+    // Create the Embersmith environment using config file
+    var env = embersmith(options.config);
 
     if(options.action === 'build') {
       // Build the site using the specified options

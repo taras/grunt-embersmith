@@ -1,30 +1,27 @@
 {
-  "author": "adam j. sontag <ajpiano@ajpiano.com> (http://ajpiano.com)",
-  "contributors": [
-    "David Tucker <david@davidtucker.net> (http://davidtucker.net)"
-  ],
-  "name": "grunt-wintersmith",
-  "description": "A grunt task and helpers for invoking the Wintersmith static site generator",
-  "version": "0.0.2",
-  "homepage": "https://github.com/davidtucker/grunt-wintersmith",
+  "author": "Taras Mankovski <tarasm@gmail.com>",
+  "name": "grunt-embersmith",
+  "description": "A grunt task and helpers for invoking the embersmith static site generator",
+  "version": "0.0.1",
+  "homepage": "https://github.com/taras/grunt-embersmith",
   "repository": {
     "type": "git",
-    "url": "git://github.com/davidtucker/grunt-wintersmith.git"
+    "url": "git://github.com/taras/grunt-embersmith.git"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/ajpiano/grunt-wintersmith/blob/master/LICENSE-MIT"
+      "url": "https://github.com/taras/grunt-embersmith/blob/master/LICENSE-MIT"
     }
   ],
   "main": "Gruntfile.js",
   "dependencies": {
     "grunt": "~0.4.1",
-    "wintersmith": "~2.0.5"
+    "embersmith": "~0.5.0"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
-    "wintersmith": "~2.0.5",
+    "embersmith": "~0.5.0",
     "grunt-contrib-jshint": "~0.6.1",
     "grunt-contrib-watch": "~0.5.1"
   },
