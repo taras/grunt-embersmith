@@ -101,3 +101,7 @@ module.exports = function(grunt) {
 
 };
 ```
+
+# Credit
+
+This code is based on [grunt-wintersmith](https://github.com/davidtucker/grunt-wintersmith) by [David Tucker](https://github.com/davidtucker) and [adam j. sontag](https://github.com/ajpiano). 
